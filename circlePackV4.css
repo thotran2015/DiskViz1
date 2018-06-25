@@ -1,0 +1,54 @@
+text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.node--hover circle {
+  stroke: #000;
+  stroke-width: 1.2px;
+}
+
+.node--leaf {
+  fill: rgb(255,243,204);
+}
+
+.label {
+  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: left;
+    pointer-events: none;
+    background: #FFFFEF;
+    bottom: 100px;
+    left: 630px;
+    padding: 10px;
+    font-size: 1em;
+    color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(250,250,250,0.8);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.49);
+    -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.49);
+    border: 1px solid rgba(200,200,200,0.85);
+    opacity: 0;
+}
+
+#content > ul {
+  font-family:"Courier New", Courier, monospace;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+#content > ul > li {
+  font-weight: bold;
+}
+
+#content > ul > li > span{
+  font-weight:normal;
+  font-style: italic;
+}
